@@ -14,7 +14,7 @@ LABEL \
   version="$VERSION-$REVISION" \
   summary="Sample app running on Open Liberty that uses Eclipse MicroProfile" \
   description="This image contains a sample application that displays the Java system properties and demonstrates MicroProfile Config, Health and Metrics."
-  test=test
+  test=test2
 
 COPY --chown=1001:0 src/main/liberty/config/ /config/
 COPY --chown=1001:0 resources/ /output/resources/
